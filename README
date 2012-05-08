@@ -1,0 +1,1 @@
+This project offers practical APT configurations which enable software repositories for systems with Ubuntu or Debian GNU/Linux installed. The configurations are in fir form of sources.list files. Choose the one that suites your system's needs the best and copy it to /etc/apt/sources.list and run the command that can be found in the comments.
