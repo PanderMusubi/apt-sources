@@ -1,0 +1,20 @@
+# Ubuntu http://ubuntu.com
+deb http://nl.archive.ubuntu.com/ubuntu/ precise main restricted universe multiverse
+deb http://nl.archive.ubuntu.com/ubuntu/ precise-updates main restricted universe multiverse
+deb http://nl.archive.ubuntu.com/ubuntu/ precise-security main restricted universe multiverse
+deb http://nl.archive.ubuntu.com/ubuntu/ precise-backports main restricted universe multiverse
+deb http://extras.ubuntu.com/ubuntu precise main
+
+# Canonical http://canonical.com
+deb http://nl.archive.canonical.com/ubuntu precise partner
+deb http://nl.archive.canonical.com/ubuntu precise-security partner
+deb http://nl.archive.canonical.com/ubuntu precise-updates partner
+deb http://nl.archive.canonical.com/ubuntu precise-backports partner
+
+# GetDeb http://getdeb.net
+# wget -q -O- http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
+deb http://archive.getdeb.net/ubuntu precise-getdeb apps
+
+# Medibuntu http://medibuntu.org
+# sudo apt-get --quiet update && sudo apt-get --yes --quiet --allow-unauthenticated install medibuntu-keyring && sudo apt-get --quiet update
+deb http://de.packages.medibuntu.org/ precise free
