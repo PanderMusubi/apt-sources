@@ -1,20 +1,20 @@
 # Ubuntu http://ubuntu.com
-deb http://archive.ubuntu.com/ubuntu/ precise main restricted universe multiverse
-deb http://archive.ubuntu.com/ubuntu/ precise-updates main restricted universe multiverse
-deb http://archive.ubuntu.com/ubuntu/ precise-security main restricted universe multiverse
-deb http://archive.ubuntu.com/ubuntu/ precise-backports main restricted universe multiverse
-deb http://extras.ubuntu.com/ubuntu precise main
+deb http://archive.ubuntu.com/ubuntu/ quantal main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu/ quantal-updates main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu/ quantal-security main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu/ quantal-backports main restricted universe multiverse
+deb http://extras.ubuntu.com/ubuntu quantal main
 
 # Canonical http://canonical.com
-deb http://archive.canonical.com/ubuntu precise partner
-deb http://archive.canonical.com/ubuntu precise-security partner
-deb http://archive.canonical.com/ubuntu precise-updates partner
-deb http://archive.canonical.com/ubuntu precise-backports partner
+deb http://archive.canonical.com/ubuntu quantal partner
+deb http://archive.canonical.com/ubuntu quantal-security partner
+deb http://archive.canonical.com/ubuntu quantal-updates partner
+deb http://archive.canonical.com/ubuntu quantal-backports partner
 
 # GetDeb http://getdeb.net
 # wget -q -O- http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
-deb http://archive.getdeb.net/ubuntu precise-getdeb apps
+deb http://archive.getdeb.net/ubuntu quantal-getdeb apps
 
 # Medibuntu http://medibuntu.org
 # sudo apt-get --quiet update && sudo apt-get --yes --quiet --allow-unauthenticated install medibuntu-keyring && sudo apt-get --quiet update
-deb http://packages.medibuntu.org/ precise free
+deb http://packages.medibuntu.org/ quantal free
