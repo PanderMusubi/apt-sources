@@ -1,24 +1,24 @@
 # Ubuntu http://ubuntu.com
-deb http://archive.ubuntu.com/ubuntu/ quantal main restricted universe multiverse
-deb http://archive.ubuntu.com/ubuntu/ quantal-updates main restricted universe multiverse
-deb http://archive.ubuntu.com/ubuntu/ quantal-security main restricted universe multiverse
-deb http://archive.ubuntu.com/ubuntu/ quantal-backports main restricted universe multiverse
-deb http://extras.ubuntu.com/ubuntu quantal main
+deb http://archive.ubuntu.com/ubuntu/ raring main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu/ raring-updates main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu/ raring-security main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu/ raring-backports main restricted universe multiverse
+deb http://extras.ubuntu.com/ubuntu raring main
 
 # Canonical http://canonical.com
-deb http://archive.canonical.com/ubuntu quantal partner
-deb http://archive.canonical.com/ubuntu quantal-security partner
-deb http://archive.canonical.com/ubuntu quantal-updates partner
-deb http://archive.canonical.com/ubuntu quantal-backports partner
+deb http://archive.canonical.com/ubuntu raring partner
+#deb http://archive.canonical.com/ubuntu raring-security partner
+#deb http://archive.canonical.com/ubuntu raring-updates partner
+#deb http://archive.canonical.com/ubuntu raring-backports partner
 
 # GNOME3
 # gpg --ignore-time-conflict --no-options --no-default-keyring --secret-keyring /tmp/tmp.Sgx9GzBi17 --trustdb-name /etc/apt/trustdb.gpg --keyring /etc/apt/trusted.gpg --primary-keyring /etc/apt/trusted.gpg --keyserver hkp://keyserver.ubuntu.com:80/ --recv 9D542E3D52C801D9F8E31682F1773AF13B1510FD
-deb http://ppa.launchpad.net/gnome3-team/gnome3/ubuntu quantal main
+deb http://ppa.launchpad.net/gnome3-team/gnome3/ubuntu raring main
 
 # GetDeb http://getdeb.net
 # wget -q -O- http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
-deb http://archive.getdeb.net/ubuntu quantal-getdeb apps
+#deb http://archive.getdeb.net/ubuntu raring-getdeb apps
 
 # Medibuntu http://medibuntu.org
 # sudo apt-get --quiet update && sudo apt-get --yes --quiet --allow-unauthenticated install medibuntu-keyring && sudo apt-get --quiet update
-deb http://packages.medibuntu.org/ quantal free
+deb http://packages.medibuntu.org/ raring free
