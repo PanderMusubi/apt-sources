@@ -12,7 +12,11 @@ deb http://nl.archive.canonical.com/ubuntu raring partner
 #deb http://nl.archive.canonical.com/ubuntu raring-backports partner
 
 # GNOME3
-# gpg --ignore-time-conflict --no-options --no-default-keyring --secret-keyring /tmp/tmp.Sgx9GzBi17 --trustdb-name /etc/apt/trustdb.gpg --keyring /etc/apt/trusted.gpg --primary-keyring /etc/apt/trusted.gpg --keyserver hkp://keyserver.ubuntu.com:80/ --recv 9D542E3D52C801D9F8E31682F1773AF13B1510FD
+# sudo gpg --ignore-time-conflict --no-options --no-default-keyring --secret-keyring /tmp/tmp.Sgx9GzBi17 --trustdb-name /etc/apt/trustdb.gpg --keyring /etc/apt/trusted.gpg --primary-keyring /etc/apt/trusted.gpg --keyserver hkp://keyserver.ubuntu.com:80/ --recv 9D542E3D52C801D9F8E31682F1773AF13B1510FD
+# sudo do-release-upgrade
+# sudo ppa-purge ppa:gnome3-team/gnome3
+# sudo dpkg -P unity-lens-shopping
+# sudo apt-get install gnome-shell
 deb http://ppa.launchpad.net/gnome3-team/gnome3/ubuntu raring main
 
 # GetDeb http://getdeb.net
