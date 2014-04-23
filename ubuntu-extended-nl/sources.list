@@ -1,28 +1,32 @@
 # Ubuntu http://ubuntu.com
-deb http://nl.archive.ubuntu.com/ubuntu/ raring main restricted universe multiverse
-deb http://nl.archive.ubuntu.com/ubuntu/ raring-updates main restricted universe multiverse
-deb http://nl.archive.ubuntu.com/ubuntu/ raring-security main restricted universe multiverse
-deb http://nl.archive.ubuntu.com/ubuntu/ raring-backports main restricted universe multiverse
-deb http://extras.ubuntu.com/ubuntu raring main
+deb http://nl.archive.ubuntu.com/ubuntu trusty main restricted universe multiverse
+deb http://nl.archive.ubuntu.com/ubuntu trusty-updates main restricted universe multiverse
+deb http://nl.archive.ubuntu.com/ubuntu trusty-security main restricted universe multiverse
+deb http://nl.archive.ubuntu.com/ubuntu trusty-backports main restricted universe multiverse
+#deb http://nl.archive.ubuntu.com/ubuntu trusty-proposed main restricted universe multiverse
+deb http://extras.ubuntu.com/ubuntu trusty main
 
 # Canonical http://canonical.com
-deb http://nl.archive.canonical.com/ubuntu raring partner
-#deb http://nl.archive.canonical.com/ubuntu raring-security partner
-#deb http://nl.archive.canonical.com/ubuntu raring-updates partner
-#deb http://nl.archive.canonical.com/ubuntu raring-backports partner
-
-# GNOME3
-# sudo gpg --ignore-time-conflict --no-options --no-default-keyring --secret-keyring /tmp/tmp.Sgx9GzBi17 --trustdb-name /etc/apt/trustdb.gpg --keyring /etc/apt/trusted.gpg --primary-keyring /etc/apt/trusted.gpg --keyserver hkp://keyserver.ubuntu.com:80/ --recv 9D542E3D52C801D9F8E31682F1773AF13B1510FD
-# sudo do-release-upgrade
-# sudo ppa-purge ppa:gnome3-team/gnome3
-# sudo dpkg -P unity-lens-shopping
-# sudo apt-get install gnome-shell
-deb http://ppa.launchpad.net/gnome3-team/gnome3/ubuntu raring main
+deb http://archive.canonical.com/ubuntu trusty partner #FIXME nl.archive.canonical.com is out of date
+#deb http://archive.canonical.com/ubuntu trusty-proposed partner #FIXME nl.archive.canonical.com is out of date
 
 # GetDeb http://getdeb.net
 # wget -q -O- http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
-deb http://archive.getdeb.net/ubuntu raring-getdeb apps
+deb http://archive.getdeb.net/ubuntu trusty-getdeb apps
 
-# Medibuntu http://medibuntu.org
-# sudo apt-get --quiet update && sudo apt-get --yes --quiet --allow-unauthenticated install medibuntu-keyring && sudo apt-get --quiet update
-deb http://de.packages.medibuntu.org/ raring free
+# PlayDeb http://playdeb.net
+# wget -q -O- http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
+deb http://archive.getdeb.net/ubuntu trusty-getdeb games
+
+# Nightingale
+# gpg --ignore-time-conflict --no-options --no-default-keyring --secret-keyring /tmp/tmp.Sgx9GeBi37 --trustdb-name /etc/apt/trustdb.gpg --keyring /etc/apt/trusted.gpg --primary-keyring /etc/apt/trusted.gpg --keyserver hkp://keyserver.ubuntu.com:80/ --recv 1F8E6217F8D14E2768237984807AE9E3672921BB
+deb http://ppa.launchpad.net/nightingaleteam/nightingale-nightly/ubuntu trusty main
+
+# Dropbox
+# apt-key adv --keyserver pgp.mit.edu --recv-keys 5044912E
+# Monitor that Dropbox does not create a file in /etc/apt/sources.list.d and remove that file if needed
+deb http://linux.dropbox.com/ubuntu trusty main
+
+# Google Talk
+# Monitor that Dropbox does not create a file in /etc/apt/sources.list.d and remove that file if needed
+deb http://dl.google.com/linux/talkplugin/deb stable main
