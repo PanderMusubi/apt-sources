@@ -7,8 +7,8 @@ deb http://nl.archive.ubuntu.com/ubuntu trusty-backports main restricted univers
 deb http://extras.ubuntu.com/ubuntu trusty main
 
 # Canonical http://canonical.com
-deb http://archive.canonical.com/ubuntu trusty partner #FIXME nl.archive.canonical.com is out of date
-#deb http://archive.canonical.com/ubuntu trusty-proposed partner #FIXME nl.archive.canonical.com is out of date
+deb http://archive.canonical.com/ubuntu trusty partner #FIXME nl.archive.canonical.com is out of date, see https://bugs.launchpad.net/ubuntu/+bug/1311649
+#deb http://archive.canonical.com/ubuntu trusty-proposed partner #FIXME nl.archive.canonical.com is out of date, see https://bugs.launchpad.net/ubuntu/+bug/1311649
 
 # GetDeb http://getdeb.net
 # wget -q -O- http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
