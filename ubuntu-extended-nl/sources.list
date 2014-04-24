@@ -11,12 +11,9 @@ deb http://archive.canonical.com/ubuntu trusty partner #FIXME nl.archive.canonic
 #deb http://archive.canonical.com/ubuntu trusty-proposed partner #FIXME nl.archive.canonical.com is out of date, see https://bugs.launchpad.net/ubuntu/+bug/1311649
 
 # GetDeb http://getdeb.net
-# wget -q -O- http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
-deb http://archive.getdeb.net/ubuntu trusty-getdeb apps
-
 # PlayDeb http://playdeb.net
 # wget -q -O- http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
-deb http://archive.getdeb.net/ubuntu trusty-getdeb games
+deb http://archive.getdeb.net/ubuntu trusty-getdeb apps games
 
 # Nightingale
 # gpg --ignore-time-conflict --no-options --no-default-keyring --secret-keyring /tmp/tmp.Sgx9GeBi37 --trustdb-name /etc/apt/trustdb.gpg --keyring /etc/apt/trusted.gpg --primary-keyring /etc/apt/trusted.gpg --keyserver hkp://keyserver.ubuntu.com:80/ --recv 1F8E6217F8D14E2768237984807AE9E3672921BB
