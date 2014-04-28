@@ -3,12 +3,10 @@ deb http://nl.archive.ubuntu.com/ubuntu trusty main restricted universe multiver
 deb http://nl.archive.ubuntu.com/ubuntu trusty-updates main restricted universe multiverse
 deb http://nl.archive.ubuntu.com/ubuntu trusty-security main restricted universe multiverse
 deb http://nl.archive.ubuntu.com/ubuntu trusty-backports main restricted universe multiverse
-#deb http://nl.archive.ubuntu.com/ubuntu trusty-proposed main restricted universe multiverse
 deb http://extras.ubuntu.com/ubuntu trusty main
 
 # Canonical http://canonical.com
-deb http://archive.canonical.com/ubuntu trusty partner #FIXME nl.archive.canonical.com is out of date, see https://bugs.launchpad.net/ubuntu/+bug/1311649
-#deb http://archive.canonical.com/ubuntu trusty-proposed partner #FIXME nl.archive.canonical.com is out of date, see https://bugs.launchpad.net/ubuntu/+bug/1311649
+deb http://archive.canonical.com/ubuntu trusty partner
 
 # GetDeb http://getdeb.net
 # PlayDeb http://playdeb.net

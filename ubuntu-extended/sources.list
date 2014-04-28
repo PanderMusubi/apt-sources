@@ -3,12 +3,10 @@ deb http://archive.ubuntu.com/ubuntu trusty main restricted universe multiverse
 deb http://archive.ubuntu.com/ubuntu trusty-updates main restricted universe multiverse
 deb http://archive.ubuntu.com/ubuntu trusty-security main restricted universe multiverse
 deb http://archive.ubuntu.com/ubuntu trusty-backports main restricted universe multiverse
-#deb http://archive.ubuntu.com/ubuntu trusty-proposed main restricted universe multiverse
 deb http://extras.ubuntu.com/ubuntu trusty main
 
 # Canonical http://canonical.com
 deb http://archive.canonical.com/ubuntu trusty partner
-#deb http://archive.canonical.com/ubuntu trusty-proposed partner
 
 # GetDeb http://getdeb.net
 # PlayDeb http://playdeb.net
