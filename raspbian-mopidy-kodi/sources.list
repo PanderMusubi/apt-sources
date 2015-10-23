@@ -1,0 +1,9 @@
+deb http://mirrordirector.raspbian.org/raspbian/ jessie main contrib non-free rp
+i
+
+# sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key 5243CDED
+deb http://archive.mene.za.net/raspbian jessie contrib # Kodi http://kodi.tv
+
+# wget -q -O - https://apt.mopidy.com/mopidy.gpg | sudo apt-key add -
+deb http://apt.mopidy.com/ stable main contrib non-free # Mopidy http://mopidy.c
+om

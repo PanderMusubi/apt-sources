@@ -1,31 +1,30 @@
 # Ubuntu http://ubuntu.com
-deb http://nl.archive.ubuntu.com/ubuntu vivid main restricted universe multiverse
-deb http://nl.archive.ubuntu.com/ubuntu vivid-updates main restricted universe multiverse
-deb http://nl.archive.ubuntu.com/ubuntu vivid-security main restricted universe multiverse
-deb http://nl.archive.ubuntu.com/ubuntu vivid-backports main restricted universe multiverse
-deb http://extras.ubuntu.com/ubuntu vivid main
+deb http://nl.archive.ubuntu.com/ubuntu wily main restricted universe multiverse
+deb http://nl.archive.ubuntu.com/ubuntu wily-updates main restricted universe multiverse
+deb http://nl.archive.ubuntu.com/ubuntu wily-security main restricted universe multiverse
+deb http://nl.archive.ubuntu.com/ubuntu wily-backports main restricted universe multiverse
 
 # Canonical http://canonical.com
-deb http://archive.canonical.com/ubuntu vivid partner
+deb http://archive.canonical.com/ubuntu wily partner
+
+deb http://www.openprinting.org/download/printdriver/debian/ lsb3.2 main # OpenPrinting https://openprinting.org/drivers
 
 # wget -q -O- http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
-deb http://archive.getdeb.net/ubuntu vivid-getdeb apps # GetDeb http://getdeb.net
-deb http://archive.getdeb.net/ubuntu vivid-getdeb games # PlayDeb http://playdeb.net
-
-# gpg --ignore-time-conflict --no-options --no-default-keyring --secret-keyring /tmp/tmp.Sgx9GeBi37 --trustdb-name /etc/apt/trustdb.gpg --keyring /etc/apt/trusted.gpg --primary-keyring /etc/apt/trusted.gpg --keyserver hkp://keyserver.ubuntu.com:80/ --recv 1F8E6217F8D14E2768237984807AE9E3672921BB
-deb http://ppa.launchpad.net/nightingaleteam/nightingale-nightly/ubuntu vivid main # Nightingale http://getnightingale.com
-
-# apt-key adv --keyserver pgp.mit.edu --recv-keys 5044912E
-deb http://linux.dropbox.com/ubuntu vivid main # Dropbox http://dropbox.com
-# Monitor that Dropbox does not create a file in /etc/apt/sources.list.d and remove that file if needed
-
-deb http://dl.google.com/linux/talkplugin/deb stable main # Google Hangouts http://www.google.com/hangouts
-
-# gpg --ignore-time-conflict --no-options --no-default-keyring --secret-keyring /tmp/tmp.Shx9geBi38 --trustdb-name /etc/apt/trustdb.gpg --keyring /etc/apt/trusted.gpg --primary-keyring /etc/apt/trusted.gpg --keyserver hkp://keyserver.ubuntu.com:80/ --recv C70EF1F0305A1ADB9986DBD8D46F45428842CE5E
-deb http://ppa.launchpad.net/bitcoin/bitcoin/ubuntu vivid main # Bitcoin http://bitcoin.org
-
-# gpg --ignore-time-conflict --no-options --no-default-keyring --secret-keyring /tmp/tmp.Rix9geBi48 --trustdb-name /etc/apt/trustdb.gpg --keyring /etc/apt/trusted.gpg --primary-keyring /etc/apt/trusted.gpg --keyserver hkp://keyserver.ubuntu.com:80/ --recv 2C835870CB8104BFC8AE32B0E6014ECD2E77D046
-deb http://ppa.launchpad.net/k-dg/litecoin/ubuntu vivid main # Litecoin http://litecoin.org
+deb http://archive.getdeb.net/ubuntu wily-getdeb apps # GetDeb http://getdeb.net
+deb http://archive.getdeb.net/ubuntu wily-getdeb games # PlayDeb http://playdeb.net
 
 # sudo add-apt-repository ppa:webupd8team/atom
-deb http://ppa.launchpad.net/webupd8team/atom/ubuntu vivid main # Atom https://atom.io
+deb http://ppa.launchpad.net/webupd8team/atom/ubuntu wily main # Atom https://atom.io
+
+# gpg --ignore-time-conflict --no-options --no-default-keyring --secret-keyring /tmp/tmp.Sgx9GeBi37 --trustdb-name /etc/apt/trustdb.gpg --keyring /etc/apt/trusted.gpg --primary-keyring /etc/apt/trusted.gpg --keyserver hkp://keyserver.ubuntu.com:80/ --recv 1F8E6217F8D14E2768237984807AE9E3672921BB
+#TODO deb http://ppa.launchpad.net/nightingaleteam/nightingale-release/ubuntu wily main # Nightingale http://getnightingale.com
+
+# gpg --ignore-time-conflict --no-options --no-default-keyring --secret-keyring /tmp/tmp.Shx9geBi38 --trustdb-name /etc/apt/trustdb.gpg --keyring /etc/apt/trusted.gpg --primary-keyring /etc/apt/trusted.gpg --keyserver hkp://keyserver.ubuntu.com:80/ --recv C70EF1F0305A1ADB9986DBD8D46F45428842CE5E
+#TODO deb http://ppa.launchpad.net/bitcoin/bitcoin/ubuntu wily main # Bitcoin https://bitcoin.org
+
+# gpg --ignore-time-conflict --no-options --no-default-keyring --secret-keyring /tmp/tmp.Rix9geBi48 --trustdb-name /etc/apt/trustdb.gpg --keyring /etc/apt/trusted.gpg --primary-keyring /etc/apt/trusted.gpg --keyserver hkp://keyserver.ubuntu.com:80/ --recv 2C835870CB8104BFC8AE32B0E6014ECD2E77D046
+#TODO deb http://ppa.launchpad.net/k-dg/litecoin/ubuntu wily main # Litecoin https://litecoin.org
+
+# apt-key adv --keyserver pgp.mit.edu --recv-keys 5044912E
+#TODO deb http://linux.dropbox.com/ubuntu wily main # Dropbox https://dropbox.com
+# Monitor that Dropbox does not create a file in /etc/apt/sources.list.d and remove that file if needed
