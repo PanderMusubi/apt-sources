@@ -20,7 +20,7 @@ deb http://ppa.launchpad.net/webupd8team/atom/ubuntu wily main # Atom https://at
 #TODO deb http://ppa.launchpad.net/nightingaleteam/nightingale-release/ubuntu wily main # Nightingale http://getnightingale.com
 
 # gpg --ignore-time-conflict --no-options --no-default-keyring --secret-keyring /tmp/tmp.Shx9geBi38 --trustdb-name /etc/apt/trustdb.gpg --keyring /etc/apt/trusted.gpg --primary-keyring /etc/apt/trusted.gpg --keyserver hkp://keyserver.ubuntu.com:80/ --recv C70EF1F0305A1ADB9986DBD8D46F45428842CE5E
-#TODO deb http://ppa.launchpad.net/bitcoin/bitcoin/ubuntu wily main # Bitcoin https://bitcoin.org
+deb http://ppa.launchpad.net/bitcoin/bitcoin/ubuntu wily main # Bitcoin https://bitcoin.org
 
 # gpg --ignore-time-conflict --no-options --no-default-keyring --secret-keyring /tmp/tmp.Rix9geBi48 --trustdb-name /etc/apt/trustdb.gpg --keyring /etc/apt/trusted.gpg --primary-keyring /etc/apt/trusted.gpg --keyserver hkp://keyserver.ubuntu.com:80/ --recv 2C835870CB8104BFC8AE32B0E6014ECD2E77D046
 #TODO deb http://ppa.launchpad.net/k-dg/litecoin/ubuntu wily main # Litecoin https://litecoin.org
