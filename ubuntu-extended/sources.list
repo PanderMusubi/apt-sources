@@ -7,7 +7,7 @@ deb http://extras.ubuntu.com/ubuntu wily main
 # Canonical http://canonical.com
 deb http://archive.canonical.com/ubuntu wily partner
 
-deb http://www.openprinting.org/download/printdriver/debian/ lsb3.2 main # OpenPrinting https://openprinting.org/drivers
+deb http://www.openprinting.org/download/printdriver/debian/ lsb3.2 main main-nonfree contrib # OpenPrinting https://openprinting.org/drivers
 
 # wget -q -O- http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
 deb http://archive.getdeb.net/ubuntu wily-getdeb apps # GetDeb http://getdeb.net
