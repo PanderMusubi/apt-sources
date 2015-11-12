@@ -7,7 +7,7 @@ deb http://nl.archive.ubuntu.com/ubuntu wily-backports main restricted universe 
 # Canonical http://canonical.com
 deb http://archive.canonical.com/ubuntu wily partner
 
-deb http://www.openprinting.org/download/printdriver/debian/ lsb3.2 main main-nonfree contrib # OpenPrinting https://openprinting.org/drivers
+deb http://www.openprinting.org/download/printdriver/debian lsb3.2 main main-nonfree contrib # OpenPrinting https://openprinting.org/drivers
 
 # wget -q -O- http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
 deb http://archive.getdeb.net/ubuntu wily-getdeb apps # GetDeb http://getdeb.net
@@ -26,5 +26,5 @@ deb http://ppa.launchpad.net/bitcoin/bitcoin/ubuntu wily main # Bitcoin https://
 #TODO deb http://ppa.launchpad.net/k-dg/litecoin/ubuntu wily main # Litecoin https://litecoin.org
 
 # apt-key adv --keyserver pgp.mit.edu --recv-keys 5044912E
-#TODO deb http://linux.dropbox.com/ubuntu wily main # Dropbox https://dropbox.com
+deb http://linux.dropbox.com/ubuntu wily main # Dropbox https://dropbox.com
 # Monitor that Dropbox does not create a file in /etc/apt/sources.list.d and remove that file if needed
