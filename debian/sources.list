@@ -1,0 +1,5 @@
+# Debian http://debian.org
+deb http://httpredir.debian.org/debian jessie main contrib non-free
+deb http://httpredir.debian.org/debian jessie-updates main contrib non-free
+deb http://httpredir.debian.org/debian jessie-backports main contrib non-free
+deb http://security.debian.org/debian jessie/updates main contrib non-free
