@@ -1,0 +1,3 @@
+# Raspbian http://raspbian.org
+deb http://mirrordirector.raspbian.org/raspbian/ testing main contrib non-free rpi
+deb http://archive.raspberrypi.org/debian/ jessie main ui
