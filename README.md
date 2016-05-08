@@ -24,3 +24,19 @@ Note that this might require to delete files in /etc/apt/sources.list.d/ which c
 For rolling upgrades, a system can use a command such as the following:
 
     curl -sO https://raw.githubusercontent.com/PanderMusubi/apt-sources/master/ubuntu-minimal-nl/sources.list
+
+To limit the number of packages that are being pulled in while installing, the following can be set. Add the following lines to the file /etc/apt/apt.conf to prevent installation of recommended and suggested packages:
+
+    APT::Install-Recommends "false";
+    APT::Install-Suggests "false";
+
+This is best done directly after the initial installation of a system. Note that the depending packages are installed as is intended.
+
+Installing the package `unattended-upgrades` is also practical to do at that moment. By default, it will only install security upgrades. Do this with the command:
+
+    sudo apt-get install unattended-upgrades
+    
+Fine-tuning can be done by editing the following file:
+
+    /etc/apt/apt.conf.d/50unattended-upgrades 
+
