@@ -1,3 +1,2 @@
-# Raspbian http://raspbian.org
-deb http://mirrordirector.raspbian.org/raspbian/ testing main contrib non-free rpi
-deb http://archive.raspberrypi.org/debian/ jessie main ui
+deb [arch=armhf] http://mirrordirector.raspbian.org/raspbian testing main contrib non-free rpi # Raspbian https://raspbian.org
+deb [arch=armhf] http://archive.raspberrypi.org/debian jessie main ui # Raspberry Pi https://raspberrypi.org

@@ -1,5 +1,5 @@
 # Debian http://debian.org
-deb http://httpredir.debian.org/debian testing main contrib non-free
-deb http://httpredir.debian.org/debian testing-updates main contrib non-free
-deb http://httpredir.debian.org/debian testing-backports main contrib non-free
-deb http://security.debian.org/debian testing/updates main contrib non-free
+deb [arch=amd64] http://httpredir.debian.org/debian testing main contrib non-free
+deb [arch=amd64] http://httpredir.debian.org/debian testing-updates main contrib non-free
+deb [arch=amd64] http://httpredir.debian.org/debian testing-backports main contrib non-free
+deb [arch=amd64] http://security.debian.org/debian testing/updates main contrib non-free

@@ -1,42 +1,42 @@
 # Ubuntu http://ubuntu.com
-deb http://archive.ubuntu.com/ubuntu xenial main restricted universe multiverse
-deb http://archive.ubuntu.com/ubuntu xenial-updates main restricted universe multiverse
-deb http://archive.ubuntu.com/ubuntu xenial-security main restricted universe multiverse
-deb http://archive.ubuntu.com/ubuntu xenial-backports main restricted universe multiverse
+deb [arch=amd64] http://archive.ubuntu.com/ubuntu xenial main restricted universe multiverse
+deb [arch=amd64] http://archive.ubuntu.com/ubuntu xenial-updates main restricted universe multiverse
+deb [arch=amd64] http://archive.ubuntu.com/ubuntu xenial-security main restricted universe multiverse
+deb [arch=amd64] http://archive.ubuntu.com/ubuntu xenial-backports main restricted universe multiverse
 
 # Canonical http://canonical.com
-deb http://archive.canonical.com/ubuntu xenial partner
+deb [arch=amd64] http://archive.canonical.com/ubuntu xenial partner
 
-deb http://www.openprinting.org/download/printdriver/debian lsb3.2 main main-nonfree contrib # OpenPrinting https://openprinting.org/drivers
+deb [arch=amd64] http://www.openprinting.org/download/printdriver/debian lsb3.2 main main-nonfree contrib # OpenPrinting https://openprinting.org/drivers
 
 # wget -q -O- http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
-deb http://archive.getdeb.net/ubuntu xenial-getdeb apps # GetDeb http://getdeb.net
-deb http://archive.getdeb.net/ubuntu xenial-getdeb games # PlayDeb http://playdeb.net
+deb [arch=amd64] http://archive.getdeb.net/ubuntu xenial-getdeb apps # GetDeb http://getdeb.net
+deb [arch=amd64] http://archive.getdeb.net/ubuntu xenial-getdeb games # PlayDeb http://playdeb.net
 
 # sudo add-apt-repository ppa:webupd8team/atom
-deb http://ppa.launchpad.net/webupd8team/atom/ubuntu xenial main # Atom https://atom.io
+deb [arch=amd64] http://ppa.launchpad.net/webupd8team/atom/ubuntu xenial main # Atom https://atom.io
 
 # apt-key adv --keyserver pgp.mit.edu --recv-keys 5044912E
-deb http://linux.dropbox.com/ubuntu xenial main # Dropbox https://dropbox.com
+deb [arch=amd64] http://linux.dropbox.com/ubuntu xenial main # Dropbox https://dropbox.com
 # Monitor that Dropbox does not create a file in /etc/apt/sources.list.d and remove that file if needed
 
 # apt-key adv --keyserver pgp.mit.edu --recv-keys 0xd66b746e
-#deb http://download.skype.com/linux/repos/debian/ stable non-free # Skype https://skype.com
+#deb [arch=amd64] http://download.skype.com/linux/repos/debian/ stable non-free # Skype https://skype.com
 
 # wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
-#deb http://dl.google.com/linux/chrome/deb/ stable main # Google Chrome https://google.com/chrome
-#deb http://dl.google.com/linux/earth/deb/ stable main # Google Earth https://google.com/earth
-#deb http://dl.google.com/linux/talkplugin/deb/ stable main # Google Hangouts https://google.com/hangouts
-#deb http://dl.google.com/linux/webdesigner/deb/ stable main # Google Hangouts https://google.com/webdesigner
+#deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main # Google Chrome https://google.com/chrome
+#deb [arch=amd64] http://dl.google.com/linux/earth/deb/ stable main # Google Earth https://google.com/earth
+#deb [arch=amd64] http://dl.google.com/linux/talkplugin/deb/ stable main # Google Hangouts https://google.com/hangouts
+#deb [arch=amd64] http://dl.google.com/linux/webdesigner/deb/ stable main # Google Hangouts https://google.com/webdesigner
 
 # apt-add-repository ppa:paolorotolo/android-studio
-deb http://ppa.launchpad.net/paolorotolo/android-studio/ubuntu xenial main # Android Studio https://developer.android.com/tools/studio
+deb [arch=amd64] http://ppa.launchpad.net/paolorotolo/android-studio/ubuntu xenial main # Android Studio https://developer.android.com/tools/studio
 
 # gpg --ignore-time-conflict --no-options --no-default-keyring --secret-keyring /tmp/tmp.Shx9geBi38 --trustdb-name /etc/apt/trustdb.gpg --keyring /etc/apt/trusted.gpg --primary-keyring /etc/apt/trusted.gpg --keyserver hkp://keyserver.ubuntu.com:80/ --recv C70EF1F0305A1ADB9986DBD8D46F45428842CE5E
-deb http://ppa.launchpad.net/bitcoin/bitcoin/ubuntu xenial main # Bitcoin https://bitcoin.org
+deb [arch=amd64] http://ppa.launchpad.net/bitcoin/bitcoin/ubuntu xenial main # Bitcoin https://bitcoin.org
 
 # gpg --ignore-time-conflict --no-options --no-default-keyring --secret-keyring /tmp/tmp.Rix9geBi48 --trustdb-name /etc/apt/trustdb.gpg --keyring /etc/apt/trusted.gpg --primary-keyring /etc/apt/trusted.gpg --keyserver hkp://keyserver.ubuntu.com:80/ --recv 2C835870CB8104BFC8AE32B0E6014ECD2E77D046
-#deb http://ppa.launchpad.net/k-dg/litecoin/ubuntu xenial main # Litecoin https://litecoin.org
+#deb [arch=amd64] http://ppa.launchpad.net/k-dg/litecoin/ubuntu xenial main # Litecoin https://litecoin.org
 
 # gpg --ignore-time-conflict --no-options --no-default-keyring --secret-keyring /tmp/tmp.Sgx9GeBi37 --trustdb-name /etc/apt/trustdb.gpg --keyring /etc/apt/trusted.gpg --primary-keyring /etc/apt/trusted.gpg --keyserver hkp://keyserver.ubuntu.com:80/ --recv 1F8E6217F8D14E2768237984807AE9E3672921BB
-#deb http://ppa.launchpad.net/nightingaleteam/nightingale-release/ubuntu xenial main # Nightingale http://getnightingale.com
+#deb [arch=amd64] http://ppa.launchpad.net/nightingaleteam/nightingale-release/ubuntu xenial main # Nightingale http://getnightingale.com

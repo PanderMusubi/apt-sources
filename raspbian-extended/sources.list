@@ -1,0 +1,6 @@
+deb [arch=armhf] http://mirrordirector.raspbian.org/raspbian jessie main contrib non-free rpi # Raspbian https://raspbian.org
+deb [arch=armhf] http://archive.raspberrypi.org/debian jessie main ui # Raspberry Pi https://raspberrypi.org
+# sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key 5243CDED
+deb [arch=armhf] http://archive.mene.za.net/raspbian jessie contrib # KODI http://michael.gorven.za.net
+# wget -q -O - https://apt.mopidy.com/mopidy.gpg | sudo apt-key add -
+deb [arch=armhf] http://apt.mopidy.com jessie main contrib non-free # Mopidy https://mopidy.com
