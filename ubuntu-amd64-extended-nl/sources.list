@@ -1,0 +1,66 @@
+#custom begin
+
+# Ubuntu http://ubuntu.com
+deb [arch=amd64] http://nl.archive.ubuntu.com/ubuntu yakkety main restricted universe multiverse
+deb [arch=amd64] http://nl.archive.ubuntu.com/ubuntu yakkety-updates main restricted universe multiverse
+deb [arch=amd64] http://nl.archive.ubuntu.com/ubuntu yakkety-security main restricted universe multiverse
+deb [arch=amd64] http://nl.archive.ubuntu.com/ubuntu yakkety-backports main restricted universe multiverse
+
+# Canonical http://canonical.com
+deb [arch=amd64] http://archive.canonical.com/ubuntu yakkety partner
+
+# wget -q -O- http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
+deb [arch=amd64] http://archive.getdeb.net/ubuntu yakkety-getdeb apps # GetDeb http://getdeb.net
+deb [arch=amd64] http://archive.getdeb.net/ubuntu yakkety-getdeb games # PlayDeb http://playdeb.net
+
+# sudo add-apt-repository ppa:fontforge/fontforge
+deb [arch=amd64] http://ppa.launchpad.net/fontforge/fontforge/ubuntu yakkety main # Fontforge http://fontforge.org
+
+# sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 7709FE97
+deb [arch=amd64] http://ppa.launchpad.net/kdenlive/kdenlive-stable/ubuntu yakkety main # Kdenlive https://kdenlive.org
+
+# apt-add-repository ppa:paolorotolo/android-studio
+deb [arch=amd64] http://ppa.launchpad.net/paolorotolo/android-studio/ubuntu yakkety main # Android Studio https://developer.android.com/tools/studio
+
+# gpg --ignore-time-conflict --no-options --no-default-keyring --secret-keyring /tmp/tmp.Rix9gEbi49 --trustdb-name /etc/apt/trustdb.gpg --keyring /etc/apt/trusted.gpg --primary-keyring /etc/apt/trusted.gpg --keyserver hkp://keyserver.ubuntu.com:80/ --recv 189701DA570C56B9488EF60A6D975C4791E7EE5E
+deb [arch=amd64] http://ppa.launchpad.net/team-xbmc/ppa/ubuntu yakkety main # Kodi https://kodi.tv
+
+# gpg --ignore-time-conflict --no-options --no-default-keyring --secret-keyring /tmp/tmp.Shx9geBi38 --trustdb-name /etc/apt/trustdb.gpg --keyring /etc/apt/trusted.gpg --primary-keyring /etc/apt/trusted.gpg --keyserver hkp://keyserver.ubuntu.com:80/ --recv C70EF1F0305A1ADB9986DBD8D46F45428842CE5E
+deb [arch=amd64] http://ppa.launchpad.net/bitcoin/bitcoin/ubuntu yakkety main # Bitcoin https://bitcoin.org
+
+# sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 4716DAB5
+###deb [arch=amd64] http://ppa.launchpad.net/mixxx/nightlies/ubuntu yakkety main # Mixxx https://mixxx.org
+
+# sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys B9BA26FA
+###deb [arch=amd64] http://ppa.launchpad.net/openshot.developers/ppa/ubuntu yakkety main # OpenShot http://openshot.org
+
+# sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 24CBF5474CFD1E2F
+###deb [arch=amd64] http://www.openprinting.org/download/printdriver/debian lsb3.2 main main-nonfree contrib # OpenPrinting https://openprinting.org/drivers
+
+# apt-key adv --keyserver pgp.mit.edu --recv-keys 5044912E
+###deb [arch=amd64] http://linux.dropbox.com/ubuntu yakkety main # Dropbox https://dropbox.com
+# Monitor that Dropbox does not create a file in /etc/apt/sources.list.d and remove that file if needed
+
+# wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
+###deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main # Google Chrome https://google.com/chrome
+###deb [arch=amd64] http://dl.google.com/linux/earth/deb/ stable main # Google Earth https://google.com/earth
+###deb [arch=amd64] http://dl.google.com/linux/talkplugin/deb/ stable main # Google Hangouts https://google.com/hangouts
+###deb [arch=amd64] http://dl.google.com/linux/webdesigner/deb/ stable main # Google Hangouts https://google.com/webdesigner
+
+# sudo add-apt-repository ppa:webupd8team/atom
+###deb [arch=amd64] http://ppa.launchpad.net/webupd8team/atom/ubuntu yakkety main # Atom https://atom.io
+
+# sudo apt-key adv --keyserver keyserver.ubuntu.com --recv A1D267C030C00DCB877900ED939C61C5D1270819
+# curl https://www.franzoni.eu/keys/D1270819.txt | sudo apt-key add -
+###deb [arch=amd64] http://a9f.eu/apt/atom/ubuntu yakkety main # atom https://atom.io
+
+# gpg --ignore-time-conflict --no-options --no-default-keyring --secret-keyring /tmp/tmp.Rix9geBi48 --trustdb-name /etc/apt/trustdb.gpg --keyring /etc/apt/trusted.gpg --primary-keyring /etc/apt/trusted.gpg --keyserver hkp://keyserver.ubuntu.com:80/ --recv 2C835870CB8104BFC8AE32B0E6014ECD2E77D046
+###deb [arch=amd64] http://ppa.launchpad.net/k-dg/litecoin/ubuntu yakkety main # Litecoin https://litecoin.org
+
+# gpg --ignore-time-conflict --no-options --no-default-keyring --secret-keyring /tmp/tmp.Sgx9GeBi37 --trustdb-name /etc/apt/trustdb.gpg --keyring /etc/apt/trusted.gpg --primary-keyring /etc/apt/trusted.gpg --keyserver hkp://keyserver.ubuntu.com:80/ --recv 1F8E6217F8D14E2768237984807AE9E3672921BB
+###deb [arch=amd64] http://ppa.launchpad.net/nightingaleteam/nightingale-release/ubuntu yakkety main # Nightingale http://getnightingale.com
+
+# apt-key adv --keyserver pgp.mit.edu --recv-keys 0xd66b746e
+###deb [arch=amd64] http://download.skype.com/linux/repos/debian/ stable non-free # Skype https://skype.com
+
+#custom end
